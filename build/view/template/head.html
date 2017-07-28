@@ -1,0 +1,6 @@
+<div class="head">
+	<span ng-hide="name" class="text">10秒定制职位</span>
+	<button ng-hide="name" class="custom f-r" ui-sref="login">去登录</button>
+	<span ng-show="name" class="f-r text" ng-bind="'您好，'+name"></span>
+	<!-- 未登录显示“去登录”，已登录显示“名字” -->
+</div>
